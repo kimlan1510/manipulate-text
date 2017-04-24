@@ -25,10 +25,10 @@ $(document).ready(function(){
   };
   var modifiedSentence = reverse_final(final_sentence(sentence));
 
-  alert(reverse(new_sentence(sentence)));
+  /*alert(reverse(new_sentence(sentence)));
   alert(join(sentence));
   alert(final_sentence(sentence));
-  alert(reverse_final(final_sentence(sentence)));
+  alert(reverse_final(final_sentence(sentence)));*/
 
   $("#dog").click(function() {
     alert(sentence);
