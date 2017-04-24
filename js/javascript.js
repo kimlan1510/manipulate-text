@@ -17,6 +17,15 @@ function final_sentence(sentence){
   return sentence.charAt((sentence.length-sentence.length%2)/2) + join(sentence);
 };
 
-alert(reverse(new_sentence(sentence)));
+function reverse_final(sentence){
+  var split_string = sentence.split("")
+  var reverseArray = split_string.reverse();
+  var joinArray = reverseArray.join("");
+  return joinArray;
+};
+var modifiedSentence = reverse_final(final_sentence(sentence));
+
+/*alert(reverse(new_sentence(sentence)));
 alert(join(sentence));
-alert(final_sentence(sentence));
+alert(final_sentence(sentence));*/
+alert(reverse_final(final_sentence(sentence)));
