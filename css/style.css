@@ -18,3 +18,7 @@ h1, h2{
 p{
   padding: 3px;
 }
+
+.panel-primary{
+  padding: 0px;
+}
