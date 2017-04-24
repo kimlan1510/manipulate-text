@@ -3,7 +3,6 @@ var new_sentence = function(sentence){
   return sentence.charAt(0).toUpperCase() +
   sentence.charAt(sentence.length-1).toUpperCase();
 };
-/*var new_sentence = new_sentence(sentence);*/
 function reverse(letter){
   var split_letter = letter.split("");
   var reverseArray = split_letter.reverse();
@@ -27,5 +26,5 @@ var modifiedSentence = reverse_final(final_sentence(sentence));
 
 /*alert(reverse(new_sentence(sentence)));
 alert(join(sentence));
-alert(final_sentence(sentence));*/
-alert(reverse_final(final_sentence(sentence)));
+alert(final_sentence(sentence));
+alert(reverse_final(final_sentence(sentence)));*/
