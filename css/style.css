@@ -25,10 +25,12 @@ p{
 
 .light-background{
   background-color: lightblue;
+  color: #4f0822;
 }
 
 .dark-background{
   background-color: darkred;
+  color: #fcf828;
 }
 
 .default-background{

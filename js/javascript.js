@@ -39,18 +39,18 @@ $(document).ready(function(){
   });
 
   $("button#light").click(function(){
-    $("body").removeClass();
-    $("body").addClass("light-background");
+    $("p").removeClass();
+    $("p").addClass("light-background");
   });
 
   $("button#dark").click(function(){
-    $("body").removeClass();
-    $("body").addClass("dark-background");
+    $("p").removeClass();
+    $("p").addClass("dark-background");
   });
 
   $("button#default").click(function(){
-    $("body").removeClass();
-    $("body").addClass("default-background");
+    $("p").removeClass();
+    $("p").addClass("default-background");
   });
 
 });
