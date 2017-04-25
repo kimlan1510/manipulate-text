@@ -36,3 +36,10 @@ p{
 .default-background{
   background-color: none;
 }
+
+#owner{
+  width: 500px;
+}
+#yell {
+  display: none;
+}
