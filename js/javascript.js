@@ -38,4 +38,14 @@ $(document).ready(function(){
     alert(reverse_final(final_sentence(sentence)));
   });
 
+  $("button#light").click(function(){
+    $("body").removeClass();
+    $("body").addClass("light-background");
+  });
+
+  $("button#dark").click(function(){
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+  });
+
 });
