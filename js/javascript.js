@@ -48,4 +48,9 @@ $(document).ready(function(){
     $("body").addClass("dark-background");
   });
 
+  $("button#default").click(function(){
+    $("body").removeClass();
+    $("body").addClass("default-background");
+  });
+
 });

@@ -22,3 +22,15 @@ p{
 .panel-primary{
   padding: 0px;
 }
+
+.light-background{
+  background-color: lightblue;
+}
+
+.dark-background{
+  background-color: darkred;
+}
+
+.default-background{
+  background-color: none;
+}
